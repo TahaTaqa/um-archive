@@ -158,7 +158,7 @@ export const Signup = () => {
         </Button>
         <div className="flex justify-between w-full">
           <Link to="/login">امتلك حساب!</Link>
-          <Link to="/resend-code">اعادة إرسال رمز التحقق</Link>
+          <Link to="/resend-code">إعادة إرسال رمز التحقق</Link>
         </div>
       </form>
       <Message
