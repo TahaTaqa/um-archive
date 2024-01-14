@@ -101,7 +101,7 @@ export const Signup = () => {
         className="w-1/2 lg:w-1/3 h-full flex flex-col gap-5 justify-center items-start"
       >
         <h1 className="text-2xl text-blue-500 ml-20 ">
-          تسجيل دخول للمرة الاولى
+          تسجيل الدخول للمرة الاولى
         </h1>
         <TextField
           id="email"
