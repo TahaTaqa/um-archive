@@ -154,7 +154,7 @@ export const Signup = () => {
           }}
         />
         <Button variant="contained" className="mx-auto" type="submit">
-          تسجيل دخول
+          تسجيل الدخول
         </Button>
         <div className="flex justify-between w-full">
           <Link to="/login">امتلك حساب!</Link>
@@ -165,7 +165,7 @@ export const Signup = () => {
         open={open}
         setOpen={setOpen}
         severity={error ? "error" : "info"}
-        message={error ? error.data.message : "رجاءا قم بإنشاء كلمة مرور"}
+        message={error ? error.data.message : "قم بإنشاء كلمة مرور"}
       />
       <a
         href={`${process.env.REACT_APP_URL}files/instructions.pdf`}
