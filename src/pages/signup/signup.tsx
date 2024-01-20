@@ -165,7 +165,7 @@ export const Signup = () => {
         open={open}
         setOpen={setOpen}
         severity={error ? "error" : "info"}
-        message={error ? error.data.message : "من فضلك قم بإنشاء كلمة مرور"}
+        message={error ? error.data.message : "قم بإنشاء كلمة مرور"}
       />
       <a
         href={`${process.env.REACT_APP_URL}files/instructions.pdf`}
