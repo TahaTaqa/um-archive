@@ -125,7 +125,7 @@ export const Login = () => {
         />
         {!loading ? (
           <Button variant="contained" className="mx-auto" type="submit">
-            تسجيل دخول
+            تسجيل الدخول
           </Button>
         ) : (
           <MoonLoader color="blue" size={30} className="mx-auto" />
