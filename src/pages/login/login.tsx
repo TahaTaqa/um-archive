@@ -93,7 +93,7 @@ export const Login = () => {
         onSubmit={(e: React.SyntheticEvent) => handleSubmit(e, values)}
         className="w-1/2 lg:w-1/3 flex flex-col gap-5 justify-center items-start"
       >
-        <h1 className="text-2xl text-blue-500 ml-20 ">تسجيل دخول</h1>
+        <h1 className="text-2xl text-blue-500 ml-20 ">تسجيل الدخول</h1>
 
         <TextField
           id="email"
